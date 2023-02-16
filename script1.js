@@ -6,7 +6,6 @@ form.addEventListener('submit', function(event) {
   event.preventDefault();
   emptyBlocks()
   const heights = heightsInput.value.split(',').map(x => parseInt(x));
-//   console.log(heights);
   const waterBlocks = calculateTotalWater(heights);
   const water = trappingWater(heights);
   generateBlocks(heights);
@@ -118,12 +117,3 @@ para.appendChild(node);
 const element = document.getElementById("result");
 element.appendChild(para);
   }
-
-
-//   const waterBlocks = calculateTotalWater(heights);
-//   const water = trappingWater(heights);
-//   console.log(water);
-//   generateBlocks(heights);
-//   updateResult(waterBlocks);
-//   generateWaterBlocks(heights,water);
-//   console.log(waterBlocks);
