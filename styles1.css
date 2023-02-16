@@ -1,0 +1,52 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.heading{
+   
+    text-align: center;
+}
+#blocks{
+    border: 1px black solid;
+    width: 100 vw;
+    height: 310px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.block{
+    /* border: 1px black solid; */
+    background-color: rgb(129, 12, 12);
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    flex-grow: 1;
+    
+}
+#water_blocks{
+    border: 1px black solid;
+    width: 100 vw;
+    height: 310px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+.resultblock{
+    flex-grow: 1;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    flex-grow: 1;
+    height: 304px;
+}
+.waterb{
+    background-color: rgb(129, 12, 12);
+    margin-top: 2px;
+}
+.waterw{
+    background-color: rgb(35, 174, 221);
+}
+#result{
+    text-align: center;
+}

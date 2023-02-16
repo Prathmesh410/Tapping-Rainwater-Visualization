@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles1.css">
+    <title>Water Block App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="heading">Water Block App</h1>
+    <h3>Enter the height array elements:</h3>
+    <form id ="heights-form">
+      <label for="heights">Array elements:</label>
+      <input type="text" id="heights-input" name="heights" pattern="^-?\d+(,\s*-?\d+)*$" required>
+      <small>(Enter heights separated by commas, e.g. 5, 3, 7, 2, 6, 4, 5, 9, 1, 10)</small><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <p>Blocks without water</p>
+    <div id="blocks" ></div>
+    <p>Blocks with water</p>
+    <div id="result"></div>
+    <div id="water_blocks"></div>
+    <script src="script1.js"></script>
+  </body>
+</html>
